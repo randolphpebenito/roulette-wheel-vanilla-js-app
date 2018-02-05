@@ -1,1 +1,2 @@
 http://dougtesting.net/winwheel/docs/tut12_animation_details
+https://stackoverflow.com/questions/37461794/aligning-images-on-two-rows-with-flexbox

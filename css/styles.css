@@ -1,3 +1,17 @@
 .canvas-container {
   text-align: center;
 }
+.row {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+}
+
+.col img {
+  height: 60px;
+  width: 90px;
+}

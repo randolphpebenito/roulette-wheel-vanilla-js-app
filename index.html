@@ -19,13 +19,53 @@
 
 <body>
   <h1>Moving Deals</h1>
+<div class="container">
   <div class="canvas-container">
     <canvas id='movingDealsCanvas' width='360' height='450'>
       Canvas not supported, use another browser.
     </canvas>
   </div>
-  <button onClick="startSpin();">Spin the Wheel</button>
+	<div class="row">		
+				<div class="item-1 col">
+				<img src="http://placehold.it/120x120" id="spinImg1" data-toggle="modal" data-target="#exampleModal">
+			</div><!--/.primary-->
+			
+			<div class="item-2 col">
+				<img src="http://placehold.it/120x120" id="spinImg2" data-toggle="modal" data-target="#exampleModal">
+			</div><!--/.secondary-->
+			
+			<div class="item-3 col">
+				<img src="http://placehold.it/120x120" id="spinImg3" data-toggle="modal" data-target="#exampleModal">
+			</div><!--/.tertiary-->	
+	</div>
+  
+	<div class="row">
+	<div class="col-sm-12 text-center">
+  <button onClick="startSpin();" class="btn btn-warning btn-lg">SPIN</button>
+	</div>
+	</div>
   <p id="spinCount">3</p>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
